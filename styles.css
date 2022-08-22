@@ -1,0 +1,314 @@
+@media (min-width: 991.98px){
+    body{
+        margin: 0;
+        font-family: system-ui;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: rgb(166, 166, 166);
+    }
+    
+    .logo{
+        height: 50px;
+    }
+    
+    .nav-bar{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+    
+    .nav-bar a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    main{
+        display: grid;
+        gap: 20px;
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .user-data{
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    
+    .user-logo{
+        object-fit: cover;
+        border-radius:50% 50% 50% 50%;
+        width:80px;
+        height:80px;
+    }
+    
+    .user-name{
+        text-align: center;
+    }
+    
+    .flower-banner{
+        height: 120px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .flower-no1{
+        background-image: url(./assets/galeryPhotos/1.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 250px;
+        padding-top: 65px;
+        padding-bottom: 10px;
+    }
+    
+    .flower-no2{
+        background-image: url(./assets/galeryPhotos/2.jpg);
+     background-size: cover;
+     background-position: center;
+        width: 250px;
+        padding-top: 65px;
+        padding-bottom: 15px;
+    }
+    
+    .flower-no3{
+        background-image: url(./assets/galeryPhotos/3.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 250px;
+        padding-top: 65px;
+        padding-bottom: 15px;
+    }
+    
+    h3{
+    font-weight: 400;
+      text-align: end;
+      color: white;
+      padding: 5px;
+      margin-bottom: 0;
+    }
+    
+    .flower-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 5%;
+    }
+}
+@media (max-width: 991.98px){
+body{
+    margin: 0;
+    font-family: system-ui;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(166, 166, 166);
+}
+
+.logo{
+    height: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main{
+    display: grid;
+    gap: 20px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.user-data{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.user-logo{
+    object-fit: cover;
+    border-radius:50% 50% 50% 50%;
+    width:80px;
+    height:80px;
+}
+
+.user-name{
+    text-align: center;
+}
+
+.flower-banner{
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.flower-no1{
+    background-image: url(./assets/galeryPhotos/1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    padding-top: 65px;
+    padding-bottom: 10px;
+}
+
+.flower-no2{
+    background-image: url(./assets/galeryPhotos/2.jpg);
+ background-size: cover;
+ background-position: center;
+    width: 250px;
+    padding-top: 65px;
+    padding-bottom: 15px;
+}
+
+.flower-no3{
+    background-image: url(./assets/galeryPhotos/3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    padding-top: 65px;
+    padding-bottom: 15px;
+}
+
+h3{
+font-weight: 400;
+  text-align: end;
+  color: white;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.flower-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 5%;
+}
+}
+@media (max-width: 575.98px){
+    body{
+    margin: 0;
+    font-family: system-ui;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(166, 166, 166);
+}
+
+.logo{
+    height: 50px;
+}
+
+.nav-bar {
+    display: none;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main{
+    display: grid;
+    gap: 20px;
+    margin: 0;
+    margin-top: 3%;
+}
+
+.user-data{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.user-logo{
+    object-fit: cover;
+    border-radius:50% 50% 50% 50%;
+    width:80px;
+    height:80px;
+    margin: auto;
+}
+
+.user-name{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.flower-banner{
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.flower-no1{
+    background-image: url(./assets/galeryPhotos/1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    padding-top: 65px;
+    padding-bottom: 10px;
+}
+
+.flower-no2{
+    background-image: url(./assets/galeryPhotos/2.jpg);
+ background-size: cover;
+ background-position: center;
+    width: 250px;
+    padding-top: 65px;
+    padding-bottom: 15px;
+}
+
+.flower-no3{
+    background-image: url(./assets/galeryPhotos/3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    padding-top: 65px;
+    padding-bottom: 15px;
+}
+
+h3{
+font-weight: 400;
+  text-align: end;
+  color: white;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.flower-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 5%;
+}}
